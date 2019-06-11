@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Saldo
+Comment=Bank Account Monitoring Application
+Exec=saldo gui
+Icon=saldo
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Utility;

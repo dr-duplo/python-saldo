@@ -1,0 +1,14 @@
+click
+sqlalchemy
+sqlparse
+pysqlcipher3
+fints
+fints-url
+colorama
+schwifty
+click-log
+click-datetime
+mt-940>=4.17.0
+keyring
+vext
+vext.gi

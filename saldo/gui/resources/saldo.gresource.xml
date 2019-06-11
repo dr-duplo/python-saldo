@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<gresources>
+	<gresource prefix="/org/gnome/saldo">
+		<file compressed="true">ui/account_tile.ui</file>
+		<file compressed="true">ui/account_tile.css</file>
+		<file compressed="true">ui/updateInfoBar.ui</file>
+		<file compressed="true">ui/add_account.ui</file>
+		<file compressed="true">ui/search_bar.ui</file>
+		<file compressed="true">icons/hicolor/scalable/apps/saldo.svg</file>
+	</gresource>
+</gresources>

@@ -1,0 +1,7 @@
+GtkBox.accountTile {
+	background-color: #FFF;
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	border: 3px solid rgba(237,237,237,1);
+	border-radius: 2px;
+	margin: 5px;
+}

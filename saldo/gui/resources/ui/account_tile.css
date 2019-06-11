@@ -1,0 +1,8 @@
+GtkBox.accountTile {
+	border: 1px solid #AAA;
+	border-radius:2px;
+}
+
+GtkLabel.balance {
+  background: #FFF;
+}

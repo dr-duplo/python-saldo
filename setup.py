@@ -14,7 +14,7 @@ setuptools.setup(
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    # url="https://github.com/pypa/sampleproject",
+    url="https://github.com/dr-duplo/python-saldo",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[

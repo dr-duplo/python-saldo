@@ -65,7 +65,8 @@ under heavy development and must be used with care. The gui can be started using
 saldo gui
 ```
 
-The package also installs a *.desktop file which provides the start icon on your desktop. 
+The package does not install a *.desktop file which provides the start icon on your desktop.
+You can add it manually by using the default *.desktop and icon files from the resources folder.  
 
 ## Installation
 

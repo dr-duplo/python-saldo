@@ -25,11 +25,5 @@ setuptools.setup(
     entry_points={
         'console_scripts': ['saldo = saldo.__main__:main']
     },
-    data_files=[
-        ('share/icons/hicolor/256x256/apps', ['saldo/gui/resources/icons/hicolor/256x256/apps/saldo.png']),
-        ('share/icons/hicolor/512x512/apps', ['saldo/gui/resources/icons/hicolor/512x512/apps/saldo.png']),
-        ('share/icons/hicolor/scalable/apps', ['saldo/gui/resources/icons/hicolor/scalable/apps/saldo.svg']),
-        ('share/applications', ['saldo/gui/resources/saldo.desktop']),
-    ],
     install_requires=requirements,
 )

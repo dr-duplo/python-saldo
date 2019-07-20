@@ -20,6 +20,8 @@ from .orm.transaction_tag import TransactionTag
 
 logger = logging.getLogger("saldo." + __name__)
 
+# Saldo product id from registrierung@hbci-zka.de
+_SALDO_PRODUCT_ID = 'B82657106E79F1BBD33E7366F'
 
 class Model:
     def __init__(self, db_file: str, password: str):
@@ -243,10 +245,11 @@ class Model:
 
             # setup fints client
             client = FinTS3PinTanClient(
-                account.bank_code,
-                account.login,
-                account.pincode,
-                account.url.geturl()
+                bank_identifier=account.bank_code,
+                user_id=account.login,
+                pin=account.pincode,
+                server=account.url.geturl(),
+                product_id=_SALDO_PRODUCT_ID
             )
 
             # find account we are looking for
